@@ -5,7 +5,7 @@
 
 (function(w, $){
 
-	var menutoggler = '<div class="menutoggler" title="Open Push Menu"><i class="fa fa-bars"></i></div>' // FIxed menu Toggler HTML. Set to empty string '' to disable
+	var menutoggler = ''// FIxed menu Toggler HTML. Set to empty string '' to disable
 	var togglerclass = 'toggleitem'
 
 	var defaults = {
