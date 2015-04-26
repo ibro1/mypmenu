@@ -5,7 +5,8 @@
 
 (function(w, $){
 
-	var menutoggler = ''// FIxed menu Toggler HTML. Set to empty string '' to disable
+	var menutoggler =''
+	// FIxed menu Toggler HTML. Set to empty string '' to disable
 	var togglerclass = 'toggleitem'
 
 	var defaults = {
