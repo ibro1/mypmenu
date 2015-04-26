@@ -177,3 +177,27 @@ color: white;
   border-radius: 2px;
   -webkit-transform-origin: 50% 50%;
   
+ transform-origin: 50% 50%;
+  transition: all 0.3s ease-in 0.3s;
+}
+
+.animateddrawer.open:before{ /* style when .open class is added to button */
+  top: 50%;
+  margin-top: -5px; /* set this to - half of top drawer line height */
+  opacity: 0;
+}
+
+.animateddrawer.open:after{ /* style when .open class is added to button */
+  bottom: 50%;
+  opacity: 0;
+}
+
+.animateddrawer.open span{ /* style when .open class is added to button */
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.animateddrawer.open span:after{ /* style when .open class is added to button */
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
